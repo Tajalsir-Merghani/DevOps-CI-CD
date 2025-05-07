@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKERHUB_CREDENTIALS = credentials('doccred')
-    REMOTE_SERVER = '3.87.245.248'
+    REMOTE_SERVER = '100.27.225.217'
     REMOTE_USER = 'ec2-user'            
   }
 
